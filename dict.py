@@ -1,0 +1,10 @@
+student={"name":["anu","moni"],"age":21,"course":"mca"}
+print(student["name"])
+print(student.get("age"))
+print(student)
+student["city"]="hubballi"
+print(student)
+student.update({"age":22})
+print(student)
+print(student.keys())
+print(student.items())
